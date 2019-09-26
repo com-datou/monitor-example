@@ -1,0 +1,5 @@
+server:
+  port: 8080
+  servlet:
+    application-display-name: client
+    context-path: /client/
