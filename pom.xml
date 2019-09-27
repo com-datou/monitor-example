@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.datou</groupId>
-	<artifactId>com.datou.monitor</artifactId>
+	<artifactId>com.datou.monitor.server</artifactId>
 	<version>0.0.1</version>
 	<name>monitor-server-example</name>
 	<description>application manager for hehe</description>
