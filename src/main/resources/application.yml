@@ -7,12 +7,7 @@ spring:
   application:
     name: monitor-server
     
-    
-eureka:   
-  instance:
-    leaseRenewalIntervalInSeconds: 10
-    health-check-url-path: /actuator/health
+eureka:
   client:
-    registryFetchIntervalSeconds: 5
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+    service-url:
+      defaultZone: http://localhost:8761/eureka/server/eureka
