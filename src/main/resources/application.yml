@@ -1,5 +1,18 @@
 server:
   port: 8080
   servlet:
-    application-display-name: monitor
+    application-display-name: monitor-server
     context-path: /monitor/
+spring:
+  application:
+    name: monitor-server
+    
+    
+eureka:   
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    health-check-url-path: /actuator/health
+  client:
+    registryFetchIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
