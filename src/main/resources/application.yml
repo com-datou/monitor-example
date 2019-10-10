@@ -1,5 +1,6 @@
 server:
   port: 8085
+
   servlet:
     application-display-name: monitor-server
     context-path: /monitor/
