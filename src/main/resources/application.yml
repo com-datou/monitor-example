@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8085
   servlet:
     application-display-name: monitor-server
     context-path: /monitor/
@@ -10,4 +10,4 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/server/eureka
+      defaultZone: http://localhost:8761/eureka/
